@@ -311,7 +311,7 @@
           
             methods: {
               filteredList() {
-                fetch(`https://https-github-com-shahzaib962-pets-backend.onrender.com/lesson/search?key_word=${this.search}`)
+                fetch(`https://back-endhttps-github-com-safzalch9-cw-2.onrender.com/lesson/search?key_word=${this.search}`)
                   .then(response => response.json())
                   .then(data => {
                     console.log('Response data:', data);
@@ -355,7 +355,7 @@
                   cartProduct: this.cart,
                 };
               
-                fetch("https://https-github-com-shahzaib962-pets-backend.onrender.com/collection/order/confrimorder", {
+                fetch("https://back-endhttps-github-com-safzalch9-cw-2.onrender.com/collection/order/confrimorder", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
@@ -396,7 +396,7 @@
           
               updateLessonSpaces(cart) {
                 const updatePromises = cart.map(lessonInCart => {
-                  return fetch(`https://https-github-com-shahzaib962-pets-backend.onrender.com/collection/lesson/${lessonInCart._id}`, {
+                  return fetch(`https://back-endhttps-github-com-safzalch9-cw-2.onrender.com/collection/lesson/${lessonInCart._id}`, {
                     method: "PUT",
                     headers: {
                       "Content-Type": "application/json",
@@ -414,7 +414,7 @@
                 
                  
                 fetchLessons() {
-                    fetch("https://https-github-com-shahzaib962-pets-backend.onrender.com/lesson")
+                    fetch("https://back-endhttps-github-com-safzalch9-cw-2.onrender.com/lesson")
                         .then(response => response.json())
                         .then(data => {
                             this.lessons = data;
