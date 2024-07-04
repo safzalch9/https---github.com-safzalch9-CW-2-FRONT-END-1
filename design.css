@@ -1,0 +1,273 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: inherit;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.width {
+    width: 100%;
+}
+
+.height {
+    height: 100%;
+}
+
+.width-height {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 1px 6px 6px #e83c0230;
+    background-color: #1e1e1e;
+}
+
+header button {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    padding: 0.5rem;
+}
+
+#filters {
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+#subjects {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    padding: 1rem;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+}
+
+.subject img {
+    width: 100%;
+    height: 100%;
+}
+
+.subject * {
+    margin: 0.25rem 0;
+}
+
+#Checkout {
+    align-items: center;
+}
+
+.bgchange {
+    background: #232323;
+    color: azure;
+}
+
+.buttonsuccess {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+
+.buttonred {
+    background: #D31027;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #444444;
+}
+
+.root {
+    display: flex;
+}
+
+main {
+    border-bottom: 3px solid #444444;
+    width: 80%;
+}
+
+.title-bar {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    width: 20%;
+    padding: 25px 0px;
+    background-color: #1e1e1e;
+}
+
+aside ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+aside ul li button {
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+
+aside ul li button:hover {
+    background-color: #555555;
+}
+
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lessons__item {
+    width: 210px;
+    background-color: #333333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.lessons__item figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lessons__item figure img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart__item {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.cart__item div {
+    padding: 5px;
+    width: 100%;
+}
+
+.cart__item img {
+    width: 40px;
+    height: 40px;
+}
+
+.cart__item button {
+    background-color: #444444;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.cart__item button:hover {
+    background-color: #ff000034;
+}
+
+form {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgrey;
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    text-align: center;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+form div {
+    padding: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:active {
+    color: #4CAF50;
+    background-color: #66b0c7;
+}
